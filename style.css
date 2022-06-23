@@ -205,11 +205,11 @@ body {
         border: 0;
     }
 
-    body .dark{
+    body {
         background-color:dark;
     }
 
-    body .light{
+    body {
         background-color:light;
     }
 
