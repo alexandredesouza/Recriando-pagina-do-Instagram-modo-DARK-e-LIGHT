@@ -10,7 +10,6 @@
 body {
     width: 100%;
     min-height: 100vh;
-   
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,13 +18,13 @@ body {
 
 @media(prefers-color-scheme:dark) {
         body {
-        background-color: rgb(26, 24, 32);
+            background-color: rgb(26, 24, 32);
         }
 }
 
 @media(prefers-color-scheme:light) {
     body {
-    background-color:#fafafa;
+        background-color:#fafafa;
     }
 }
 
@@ -68,19 +67,18 @@ body {
     flex-direction: column;
     width: 100%;
     padding: 1.3rem 0;
-    border: 1px solid #dbdbdb;
-   
+    border: 1px solid #dbdbdb;  
 }
 
 @media(prefers-color-scheme:dark) {
     .group {
-    background-color: rgb(40, 37, 49);
+        background-color: rgb(40, 37, 49);
     }
 }
 
 @media(prefers-color-scheme:light) {
     .group {
-    background-color: #ffffff;
+        background-color: #ffffff;
     }
 }
 
@@ -123,7 +121,6 @@ body {
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
-
 }
 
 .not-account {
@@ -204,8 +201,8 @@ body {
 
 @media(max-width:660px) {
     .group {
-         background-color: transparent;
-    border: 0;
+        background-color: transparent;
+        border: 0;
     }
 
     body .dark{
