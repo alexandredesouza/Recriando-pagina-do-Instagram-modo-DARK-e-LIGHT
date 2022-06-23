@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media(prefers-color-scheme:dark) {
+        body {
+        background-color: rgb(26, 24, 32);
+        }
+}
+
+@media(prefers-color-scheme:light) {
+    body {
+    background-color:#fafafa;
+    }
+}
+
+
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+
+.instagram-phone img {
+    height: 45rem;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid #dbdbdb;
+   
+}
+
+@media(prefers-color-scheme:dark) {
+    .group {
+    background-color: rgb(40, 37, 49);
+    }
+}
+
+@media(prefers-color-scheme:light) {
+    .group {
+    background-color: #ffffff;
+    }
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+    background-image: url('./imagens/logo  instagram branco.png');
+ }
+
+ @media(prefers-color-scheme:light) {
+    .instagram-logo{
+        filter: brightness(0.0);
+         }
+ }
+
+
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    height: 6rem;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
+
+}
+
+.not-account {
+    color: rgb(160, 160, 160);
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+@media(prefers-color-scheme:dark){
+    .get-the-app {
+    color:  #ffffff;
+    }
+}
+
+@media(prefers-color-scheme:light){
+    .get-the-app {
+        color: black;
+    }
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+@media(prefers-color-scheme:dark){
+.app-download:nth-child(1) {
+    background-image: url('./imagens/apple button teste.jpg');
+    }
+}
+
+@media(prefers-color-scheme:light){
+    .app-download:nth-child(1) {
+        background-image: url('./imagens/apple-button.png');
+        }
+    }
+
+@media(prefers-color-scheme:dark){
+.app-download:nth-child(2) {
+    background-image: url('./imagens/google play button teste.jpg');
+    }
+}
+
+@media(prefers-color-scheme:light){
+    .app-download:nth-child(2) {
+        background-image: url('./imagens/googleplay-button.png');
+        }
+    }   
+	
+/* media queries*/
+
+@media(max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media(max-width:660px) {
+    .group {
+         background-color: transparent;
+    border: 0;
+    }
+
+    body .dark{
+        background-color:dark;
+    }
+
+    body .light{
+        background-color:light;
+    }
+
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
+}
+
+@media(max-width:350px) {
+    .download {
+        flex-direction: column;
+    }
+
+    .app-download:nth-child(1) { 
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
