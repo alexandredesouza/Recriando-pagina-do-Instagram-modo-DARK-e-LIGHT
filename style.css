@@ -88,7 +88,6 @@ body {
 
 .instagram-logo{
     height: 3rem;
-    background-image: url('./imagens/logo  instagram branco.png');
  }
 
  @media(prefers-color-scheme:light) {
@@ -169,25 +168,25 @@ body {
 
 @media(prefers-color-scheme:dark){
 .app-download:nth-child(1) {
-    background-image: url('./imagens/apple button teste.jpg');
+    background-image: url('./imagens/googleplay-button-branco.jpg');
     }
 }
 
 @media(prefers-color-scheme:light){
     .app-download:nth-child(1) {
-        background-image: url('./imagens/apple-button.png');
+        background-image: url('./imagens/apple-button-preto.png');
         }
     }
 
 @media(prefers-color-scheme:dark){
 .app-download:nth-child(2) {
-    background-image: url('./imagens/google play button teste.jpg');
+    background-image: url('./imagens/googleplay-button-branco.jpg');
     }
 }
 
 @media(prefers-color-scheme:light){
     .app-download:nth-child(2) {
-        background-image: url('./imagens/googleplay-button.png');
+        background-image: url('./imagens/apple-button-preto.png');
         }
     }   
 	
